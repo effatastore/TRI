@@ -15,6 +15,6 @@ $ git clone https://github.com/effatastore/TRI
 <b> GO TO RUN : </b>
 ```
 $ cd TRI
-$ php dor.php
+$ php tri.php
 ```
 # SEMOGA BERMANFAAT & GUNAKAN DENGAN BIJAK
