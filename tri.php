@@ -57,7 +57,10 @@ if (strpos(json_encode($login), '"status":true')) {
 22 >> 60GB 30 Hari 2GB/hari \t\t;Rp 30.000,-
 23 >> (POP) 60GB 30 Hari 2GB/Hari \t;Rp 60.000,-
 24 >> 10GB 30 Hari 350MB/hari \t\t;Rp 10.000,-
-25 >> 30GB 30 Hari 1GB/hari \t\t;Rp 20.000,-  \n ║\n ║");
+25 >> 30GB 30 Hari 1GB/hari \t\t;Rp 20.000,- 
+26 >> (NEW) 40GB 30 Hari \t\t;Rp 50.000,-
+
+ \n ║\n ║");
     
     echo @color('nevy', "\n ╚══════❨ PILIH PAKET ❩════╾꧁ঔৣ☬⫸ : ");
     $pilih = trim(fgets(STDIN));
@@ -136,6 +139,12 @@ if (strpos(json_encode($login), '"status":true')) {
             break;
             case '25':
             $ptodid = '28036';
+            break;
+            case '26':
+            $ptodid = '29679';
+            break;
+            case '27':
+            $ptodid = '63021';
             break;
             
         
